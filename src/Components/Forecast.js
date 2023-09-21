@@ -10,7 +10,7 @@ const Forecast = ({ apiKey, city }) => {
     axios
       .get(apiUrl)
       .then((response) => {
-        console.log(response.data);
+        // console.log(response.data);
         setForecastData(response.data);
       })
       .catch((error) => {
