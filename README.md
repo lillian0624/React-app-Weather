@@ -14,13 +14,3 @@ A simple React weather forecast web application that provides current weather da
 - Built with React and styled with CSS.
 
 
-## Getting Started
-
-### Prerequisites
-
-Before running the project locally, make sure you have the following installed:
-
-- Node.js and npm (Node Package Manager)
-- Git (optional)
-
-
