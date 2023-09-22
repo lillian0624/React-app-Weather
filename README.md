@@ -13,9 +13,6 @@ A simple React weather forecast web application that provides current weather da
 - Responsive design for various screen sizes.
 - Built with React and styled with CSS.
 
-## Demo
-
-You can view a live demo of the project [here](https://your-demo-url.com).
 
 ## Getting Started
 
