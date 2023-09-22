@@ -30,15 +30,42 @@ const Forecast = ({ apiKey, city }) => {
   // Extract the list of forecasts from the API response for the next 5 days
   const forecastList = forecastData.list;
 
+  const dailyData = {};
+  console.log(dailyData[data]);
+
+  forecastList.forEach((forecast) => {
+    const date = forecast.dt_txt.split(" ")[0];
+
+    if (!dailyData[date]) {
+      dailyData[date] = {
+        maxTemp: -Infinity,
+        minTemp: Infinity,
+      };
+    }
+
+    if (forecast.main.temp_max > dailyData[date].maxTemp) {
+      dailyData[date].maxTemp = forecast.main.temp_max;
+    }
+
+    if (forecast.main.temp_min > dailyData[date].minTemp) {
+      dailyData[date].minTemp = forecast.main.temp_min;
+    }
+
+    dailyData[date].weather = forecast.weather[0].description;
+  });
+
   return (
     <div>
       <h2>5-Day Weather Forecast for {city}</h2>
       <div className="forecast-container">
-        {forecastList.map((forecast, index) => (
-          <div key={index} className="forecast-item">
-            <p>Date: {forecast.dt_txt}</p>
-            <p>Temperature: {forecast.main.temp}°C</p>
-            <p>Weather: {forecast.weather[0].description}</p>
+        {Object.keys(dailyData).map((date) => (
+          <div key={date} className="forecast-item">
+            {" "}
+              
+            <p>Date: {date}</p>
+            <p>Highest Temperature: {dailyData[date].maxTemp}°C</p>
+            <p>Lowest Temperature: {dailyData[date].minTemp}°C</p>
+            <p>Weather:{dailyData[date].weather}</p>
           </div>
         ))}
       </div>
