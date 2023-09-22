@@ -31,7 +31,6 @@ const Forecast = ({ apiKey, city }) => {
   const forecastList = forecastData.list;
 
   const dailyData = {};
-  console.log(dailyData[data]);
 
   forecastList.forEach((forecast) => {
     const date = forecast.dt_txt.split(" ")[0];
@@ -47,7 +46,7 @@ const Forecast = ({ apiKey, city }) => {
       dailyData[date].maxTemp = forecast.main.temp_max;
     }
 
-    if (forecast.main.temp_min > dailyData[date].minTemp) {
+    if (forecast.main.temp_min < dailyData[date].minTemp) {
       dailyData[date].minTemp = forecast.main.temp_min;
     }
 
