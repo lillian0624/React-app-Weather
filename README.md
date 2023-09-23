@@ -6,9 +6,12 @@ I developed a weather forecasting web application using React that allows users 
 and the app displays the current weather data, temperature, and a 5-day weather forecast for that city. 
 The app uses the OpenWeatherMap API to fetch weather data.
 
-<img  center width="798" alt="image" src="https://github.com/lillian0624/React-app-Weather/assets/87347776/f6a036fd-59f7-439a-954b-5841f7022f41">
+<img text-align='center' width="855" alt="image" src="https://github.com/lillian0624/React-app-Weather/assets/87347776/defe4ab6-0448-4733-b206-10c783c7cadc">
 
-<img width="1726" alt="image" src="https://github.com/lillian0624/React-app-Weather/assets/87347776/b224f792-8c60-43cd-a37a-735be1645c0b">
+<br>
+
+<img width="1640" alt="image" src="https://github.com/lillian0624/React-app-Weather/assets/87347776/f35d93c6-9f1e-4ae5-bdec-d74545d628e7">
+
 
 
 
