@@ -18,15 +18,20 @@ const ChangeCity = ({ apiKey, onCitySubmit }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <input
-        type="text"
-        placeholder="Enter a city"
-        value={city || ""}
-        onChange={handleCityChange}
-      />
-      <button type="submit">Get Weather</button>
-    </form>
+    <div className="change-city-container">
+      <form onSubmit={handleSubmit}>
+        <input
+          type="text"
+          className="city-input"
+          placeholder="Enter a city"
+          value={city || ""}
+          onChange={handleCityChange}
+        />
+        <button type="submit" className="submit-button">
+          Get Weather
+        </button>
+      </form>
+    </div>
   );
 };
 export default ChangeCity;
