@@ -6,7 +6,7 @@ I developed a weather forecasting web application using React that allows users 
 and the app displays the current weather data, temperature, and a 5-day weather forecast for that city. 
 The app uses the OpenWeatherMap API to fetch weather data.
 
-<img width="872" alt="image" src="https://github.com/lillian0624/React-app-Weather/assets/87347776/040e0416-fc45-4b54-9947-cb1ae7cf23e7"><img width="872" alt="image" src="https://github.com/lillian0624/React-app-Weather/assets/87347776/f3d70548-2ddb-4587-afa6-34dcf2f9d650">
+<img width="872" alt="image" src="https://github.com/lillian0624/React-app-Weather/assets/87347776/040e0416-fc45-4b54-9947-cb1ae7cf23e7">
 
 ## Features
 
