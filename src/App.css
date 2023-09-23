@@ -4,14 +4,12 @@
   text-align: center;
 }
 
-<<<<<<< Updated upstream
-=======
-.App-logo {
+<<<<<<< Updated upstream=======.App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
->>>>>>> Stashed changes
+>>>>>>>Stashed changes
 
 /* Style the header */
 h1 {
@@ -43,6 +41,11 @@ h1 {
   text-align: center;
 }
 
+
+
+
+
+
 /* Style the date */
 .forecast-item p:first-child {
   font-weight: bold;
@@ -65,41 +68,19 @@ h1 {
 /* Style weather description */
 .forecast-item p:last-child {
   color: #555;
+
+
 }
 
 
-/* Media query for responsive design */
-@media (max-width: 768px) {
-  .forecast-item p:nth-child(3) {
-    font-size: 1.2rem;
-    margin-top: 10px;
-    width: 100%;
-<<<<<<< Updated upstream
 
-=======
->>>>>>> Stashed changes
-  }
-}
-
-
-<<<<<<< Updated upstream
+/* styling submit form */
 .change-city-container {
-  padding-top: 20px;
-=======
-
-
-/* CSS for ChangeCity */
-.change-city-container {
->>>>>>> Stashed changes
   text-align: center;
   margin: 20px;
 }
 
 .city-input {
-<<<<<<< Updated upstream
-=======
-  /* width: 100%; */
->>>>>>> Stashed changes
   padding: 10px;
   font-size: 16px;
   border: 1px solid #ccc;
@@ -110,11 +91,7 @@ h1 {
 .submit-button {
   padding: 10px 20px;
   font-size: 16px;
-<<<<<<< Updated upstream
   background-color: #007bff;
-=======
-  background-color: #ec2384;
->>>>>>> Stashed changes
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -123,9 +100,5 @@ h1 {
 }
 
 .submit-button:hover {
-<<<<<<< Updated upstream
   background-color: #0056b3;
-=======
-  background-color: #e0a7c9;
->>>>>>> Stashed changes
 }
