@@ -20,9 +20,9 @@ The app uses the OpenWeatherMap API to fetch weather data.
   
 ## Improvements and Considerations:
 
-Implement further styling and design to enhance the user interface.
-Add more weather-related information and icons to make the app more informative.
-Consider incorporating user geolocation to detect the user's location automatically.
-Implement responsive design for better usability on different devices.
+- Implement further styling and design to enhance the user interface.
+- Add more weather-related information and icons to make the app more informative.
+- Consider incorporating user geolocation to detect the user's location automatically.
+- Implement responsive design for better usability on different devices.
 
 
