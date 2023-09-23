@@ -1,7 +1,17 @@
 .App {
+
+  background-color: #f3f3f3;
   text-align: center;
 }
 
+<<<<<<< Updated upstream
+=======
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+>>>>>>> Stashed changes
 
 /* Style the header */
 h1 {
@@ -19,6 +29,11 @@ h1 {
 
 /* Style individual forecast items */
 .forecast-item {
+
+  width: 100%;
+  /* Make forecast items full-width on smaller screens */
+  margin: 10px 0;
+  /* Adjust margin for spacing */
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -33,14 +48,17 @@ h1 {
   font-weight: bold;
 }
 
-/* Style temperature */
+/* Style  high temperature */
 .forecast-item p:nth-child(2) {
   font-size: 1.2rem;
   margin-top: 10px;
 }
 
 
-/* Style temperature */
+.forecast-item p:nth-child(3) {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
 
 
 
@@ -49,23 +67,39 @@ h1 {
   color: #555;
 }
 
+
 /* Media query for responsive design */
 @media (max-width: 768px) {
   .forecast-item p:nth-child(3) {
     font-size: 1.2rem;
     margin-top: 10px;
     width: 100%;
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
   }
 }
 
 
+<<<<<<< Updated upstream
 .change-city-container {
+  padding-top: 20px;
+=======
+
+
+/* CSS for ChangeCity */
+.change-city-container {
+>>>>>>> Stashed changes
   text-align: center;
   margin: 20px;
 }
 
 .city-input {
+<<<<<<< Updated upstream
+=======
+  /* width: 100%; */
+>>>>>>> Stashed changes
   padding: 10px;
   font-size: 16px;
   border: 1px solid #ccc;
@@ -76,7 +110,11 @@ h1 {
 .submit-button {
   padding: 10px 20px;
   font-size: 16px;
+<<<<<<< Updated upstream
   background-color: #007bff;
+=======
+  background-color: #ec2384;
+>>>>>>> Stashed changes
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -85,5 +123,9 @@ h1 {
 }
 
 .submit-button:hover {
+<<<<<<< Updated upstream
   background-color: #0056b3;
+=======
+  background-color: #e0a7c9;
+>>>>>>> Stashed changes
 }
