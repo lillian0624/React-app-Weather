@@ -2,16 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-<<<<<<< Updated upstream
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-=======
 
 
 /* Style the header */
@@ -52,10 +42,8 @@ h1 {
 
 
 /* Style temperature */
-.forecast-item p:nth-child(3) {
-  font-size: 1.2rem;
-  margin-top: 10px;
-}
+
+
 
 /* Style weather description */
 .forecast-item p:last-child {
@@ -64,9 +52,11 @@ h1 {
 
 /* Media query for responsive design */
 @media (max-width: 768px) {
-  .forecast-item {
+  .forecast-item p:nth-child(3) {
+    font-size: 1.2rem;
+    margin-top: 10px;
     width: 100%;
->>>>>>> Stashed changes
+
   }
 }
 
@@ -89,6 +79,7 @@ h1 {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
