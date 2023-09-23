@@ -7,9 +7,66 @@
   pointer-events: none;
 }
 
+<<<<<<< Updated upstream
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+=======
+
+
+/* Style the header */
+h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Style the container for weather forecast */
+.forecast-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Style individual forecast items */
+.forecast-item {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+}
+
+/* Style the date */
+.forecast-item p:first-child {
+  font-weight: bold;
+}
+
+/* Style temperature */
+.forecast-item p:nth-child(2) {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+
+/* Style temperature */
+.forecast-item p:nth-child(3) {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* Style weather description */
+.forecast-item p:last-child {
+  color: #555;
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+  .forecast-item {
+    width: 100%;
+>>>>>>> Stashed changes
   }
 }
 
