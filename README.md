@@ -7,6 +7,8 @@ and the app displays the current weather data, temperature, and a 5-day weather 
 The app uses the OpenWeatherMap API to fetch weather data.
 
 <img width="813" alt="image" src="https://github.com/lillian0624/React-app-Weather/assets/87347776/d1914bb2-7db6-49ca-9de8-4f0c0b3bc972">
+<img width="1726" alt="image" src="https://github.com/lillian0624/React-app-Weather/assets/87347776/b224f792-8c60-43cd-a37a-735be1645c0b">
+
 
 
 ## Features
@@ -17,6 +19,7 @@ The app uses the OpenWeatherMap API to fetch weather data.
 - The city-state is managed in the App.js component, and it updates when a new city is submitted.
 - User input is cleared after submission for a better user experience.
 - Error handling is included in case of API request failures.
+- Responsive design for optimal usability and appeal on various devices and screens.
 
   
 ## Improvements and Considerations:
