@@ -39,6 +39,9 @@ const Forecast = ({ apiKey, city }) => {
       dailyData[date] = {
         maxTemp: -Infinity,
         minTemp: Infinity,
+
+        weather: forecast.weather[0].description,
+        icon: forecast.weather[0].icon, // Store the icon code
       };
     }
 
@@ -64,6 +67,10 @@ const Forecast = ({ apiKey, city }) => {
             <p>Date: {date}</p>
             <p>Highest Temperature: {dailyData[date].maxTemp}°C</p>
             <p>Lowest Temperature: {dailyData[date].minTemp}°C</p>
+            <img
+              src={`https://openweathermap.org/img/wn/${dailyData[date].icon}.png`}
+              alt="Weather Icon"
+            />
             <p>Weather:{dailyData[date].weather}</p>
           </div>
         ))}

@@ -21,11 +21,14 @@ const Weather = ({ apiKey, city }) => {
     return <div>Loading...</div>;
   }
 
+  const weatherIconUrl = `https://openweathermap.org/img/wn/${weatherData.weather[0].icon}.png`;
+
   return (
     <div>
-      
       <h2>Current Weather in {city} </h2>
+
       <p> {(weatherData.main.temp - 273.15).toFixed(2)}°C</p>
+      <img src={weatherIconUrl} alt="Weather Icon" />
       <p>Weather: {weatherData.weather[0].description}</p>
     </div>
   );
