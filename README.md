@@ -25,13 +25,13 @@ The app uses the OpenWeatherMap API to fetch weather data.
 - User input is cleared after submission for a better user experience.
 - Error handling is included in case of API request failures.
 - Responsive design for optimal usability and appeal on various devices and screens.
+- Weather-related icons make the app more informative.
 
   
 ## Improvements and Considerations:
 
 - Implement further styling and design to enhance the user interface.
-- Add more weather-related information and icons to make the app more informative.
 - Consider incorporating user geolocation to detect the user's location automatically.
-- Implement responsive design for better usability on different devices.
+
 
 
