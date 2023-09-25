@@ -23,6 +23,7 @@ const Weather = ({ apiKey, city }) => {
 
   return (
     <div>
+      
       <h2>Current Weather in {city} </h2>
       <p> {(weatherData.main.temp - 273.15).toFixed(2)}°C</p>
       <p>Weather: {weatherData.weather[0].description}</p>
